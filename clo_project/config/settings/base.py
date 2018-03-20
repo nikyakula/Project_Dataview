@@ -114,10 +114,10 @@ MANAGERS = ADMINS
 DATABASES = {
 'default':{
          'ENGINE': 'sql_server.pyodbc',
-         'NAME': 'clo_factorydb',
-         'HOST': 'mssql-clo-prod.c0cqs7rsnqyl.us-east-1.rds.amazonaws.com',
-         'USER': 'clowebuser',
-         'PASSWORD': 'R8b}EtjgP$n_H',
+         'NAME': '',
+         'HOST': '',
+         'USER': '',
+         'PASSWORD': '',
 	 'SCHEMA': 'web',
          'OPTIONS': {
             'driver': 'ODBC Driver 13 for SQL Server','MARS_Connection': True,
